@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/GoSpray/grdp/glog"
+	"github.com/mburaksoran/GoSpray/grdp/glog"
 	"unsafe"
 )
 

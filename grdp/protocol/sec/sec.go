@@ -14,14 +14,14 @@ import (
 
 	"github.com/lunixbochs/struc"
 
-	"github.com/GoSpray/grdp/protocol/nla"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/nla"
 
-	"github.com/GoSpray/grdp/core"
-	"github.com/GoSpray/grdp/emission"
-	"github.com/GoSpray/grdp/glog"
-	"github.com/GoSpray/grdp/protocol/lic"
-	"github.com/GoSpray/grdp/protocol/t125"
-	"github.com/GoSpray/grdp/protocol/t125/gcc"
+	"github.com/mburaksoran/GoSpray/grdp/core"
+	"github.com/mburaksoran/GoSpray/grdp/emission"
+	"github.com/mburaksoran/GoSpray/grdp/glog"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/lic"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125/gcc"
 )
 
 /**

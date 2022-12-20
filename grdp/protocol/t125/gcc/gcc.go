@@ -6,11 +6,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/GoSpray/grdp/glog"
+	"github.com/mburaksoran/GoSpray/grdp/glog"
 
-	"github.com/GoSpray/grdp/core"
-	"github.com/GoSpray/grdp/protocol/t125/per"
 	"github.com/lunixbochs/struc"
+	"github.com/mburaksoran/GoSpray/grdp/core"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125/per"
 )
 
 var t124_02_98_oid = []byte{0, 0, 20, 124, 0, 1}

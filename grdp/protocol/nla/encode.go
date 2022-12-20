@@ -6,7 +6,7 @@ import (
 	"crypto/rc4"
 	"strings"
 
-	"github.com/GoSpray/grdp/core"
+	"github.com/mburaksoran/GoSpray/grdp/core"
 	"golang.org/x/crypto/md4"
 )
 

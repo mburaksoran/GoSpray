@@ -8,12 +8,12 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/GoSpray/grdp/core"
-	"github.com/GoSpray/grdp/emission"
-	"github.com/GoSpray/grdp/glog"
-	"github.com/GoSpray/grdp/protocol/t125/ber"
-	"github.com/GoSpray/grdp/protocol/t125/gcc"
-	"github.com/GoSpray/grdp/protocol/t125/per"
+	"github.com/mburaksoran/GoSpray/grdp/core"
+	"github.com/mburaksoran/GoSpray/grdp/emission"
+	"github.com/mburaksoran/GoSpray/grdp/glog"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125/ber"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125/gcc"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125/per"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

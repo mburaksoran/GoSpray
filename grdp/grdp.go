@@ -3,15 +3,15 @@ package grdp
 import (
 	"errors"
 	"fmt"
-	"github.com/GoSpray/grdp/core"
-	"github.com/GoSpray/grdp/glog"
-	"github.com/GoSpray/grdp/protocol/nla"
-	"github.com/GoSpray/grdp/protocol/pdu"
-	"github.com/GoSpray/grdp/protocol/rfb"
-	"github.com/GoSpray/grdp/protocol/sec"
-	"github.com/GoSpray/grdp/protocol/t125"
-	"github.com/GoSpray/grdp/protocol/tpkt"
-	"github.com/GoSpray/grdp/protocol/x224"
+	"github.com/mburaksoran/GoSpray/grdp/core"
+	"github.com/mburaksoran/GoSpray/grdp/glog"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/nla"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/pdu"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/rfb"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/sec"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/t125"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/tpkt"
+	"github.com/mburaksoran/GoSpray/grdp/protocol/x224"
 	"log"
 	"net"
 	"os"
@@ -238,4 +238,3 @@ func VerifyProtocol(target string) string {
 	}
 	return PROTOCOL_RDP
 }
-

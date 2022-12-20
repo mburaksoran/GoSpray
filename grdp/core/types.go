@@ -1,6 +1,6 @@
 package core
 
-import "github.com/GoSpray/grdp/emission"
+import "github.com/mburaksoran/GoSpray/grdp/emission"
 
 type Transport interface {
 	Read(b []byte) (n int, err error)
